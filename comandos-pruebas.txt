@@ -1,0 +1,19 @@
+-------------------------------------------------------------------
+Prueba funcional
+-------------------------------------------------------------------
+
+./vendor/bin/phpunit tests/Functional/RegistrarClienteTest.php
+./vendor/bin/phpunit --filter RegistrarClienteTest
+
+-------------------------------------------------------------------
+Prueba de Integracion 
+-------------------------------------------------------------------
+
+./vendor/bin/phpunit tests/Integration/ChatbotApiTest.php
+./vendor/bin/phpunit --filter ChatbotApiTest
+
+
+-------------------------------------------------------------------
+CORRER TODAS LAS PRUEBAS
+-------------------------------------------------------------------
+./vendor/bin/phpunit
